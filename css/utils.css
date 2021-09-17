@@ -1,0 +1,32 @@
+.heading-hr {
+    content: '';
+    display: block;
+    width: 10rem;
+    height: 3px;
+    background: #d21e2b;
+    border-radius: 25%;
+    margin: auto;
+    margin: 1.5rem 0;
+}
+
+a.btn_read {
+    text-decoration: none;
+    display: inline-block;
+    margin: 1rem 0;
+    padding: .6rem 1.5rem;
+    border: 2px solid transparent;
+    border-radius: 2rem;
+    background-color: #d21e2b;
+    color: #fff;
+    font-size: .8rem;
+}
+
+a.btn_read:hover {
+    background-color: #fff;
+    color: #d21e2b;
+    border: 2px solid #d21e2b;
+}
+
+a.btn_card {
+    margin: 0;
+}

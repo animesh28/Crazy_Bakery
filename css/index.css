@@ -1,0 +1,90 @@
+.small-para {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem 0;
+    padding: 2rem;
+    width: 100%;
+}
+
+.small-para_head {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.small-para_text {
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.left-text-right-img {
+    align-items: center;
+    background-color: #f9f9f9;
+}
+
+@media screen and (max-width: 900px) {
+    .left-text-right-img {
+        flex-direction: column;
+    }
+    .left-text-right-img img {
+        width: 300px;
+    }
+}
+
+.left-text-right-img .content {
+    padding: 2rem;
+}
+
+.left-text-right-img .content_head {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.left-text-right-img .content_text {
+    font-size: 1rem;
+}
+
+.left-text-right-img img {
+    border-radius: 1rem;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .4);
+}
+
+.food_items .row {
+    margin-bottom: 2rem !important;
+}
+
+.food_items .row .col .card .card-body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.food_items .row .col .card .card-body .card-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.food_items .row .col .card .card-body .card-text {
+    text-align: center;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+    .food_items .row {
+        flex-direction: column;
+    }
+    .food_items .row .col:not(:last-of-type) {
+        margin-bottom: 2rem;
+    }
+}
+
+.investor {
+    padding: 4rem 0;
+}
+
+footer {
+    font-size: .8rem;
+}
